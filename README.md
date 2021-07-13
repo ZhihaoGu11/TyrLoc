@@ -12,39 +12,39 @@ Communications Toolbox Library for the Bluetooth Protocol
 **Adding the whole Floder into the path**
 
 ## Getting Started
-1. Click here to download the raw data and put it into the folder.
+1. Click here to download the raw data and put it into the folder.  
 2. We design the main function of AoA estimation for each protocol. You can quickly run it by run WIFIAoA_Main/BLEAoA_Main/LoRaAoA_Main
 
 ## Project Structure
   TyrLoc
-  │  WIFIAoA_Main.m         // Main function of AoA estimation for WIFI
-  │  BLEAoA_Main.m          // Main function of BLE AoA estimation for BLE
-  │  LoRaAoA_Main.m         // Main function of LoRa AoA estimation for LoRa
-  ├─ wifi
-  │  │  WIFIAoAEst.m         // AoA estimator for BLE
-  │  └─ ble_detecor_util    // Helper function of detecting WIFI preamble     
-  ├─ ble
-  │  │  BLEAoAEst.m        // AoA estimator for LoRa
-  │  └─ lora_detector_util  // Helper functions of detecting BLE preamble
-  ├─ lora
-  │   │  LoRaAoAEst.m       // AoA estimator for LoRa
-  │   └─ wifi_detector_util // Helper functions of detecting LoRa preamble
-  ├─ util                   // Helper functions of antenna ID extraction, phase calibation and AoA estimation
+  │  WIFIAoA_Main.m         // Main function of AoA estimation for WIFI  
+  │  BLEAoA_Main.m          // Main function of BLE AoA estimation for BLE  
+  │  LoRaAoA_Main.m         // Main function of LoRa AoA estimation for LoRa  
+  ├─ wifi  
+  │  │  WIFIAoAEst.m         // AoA estimator for BLE  
+  │  └─ ble_detecor_util    // Helper function of detecting WIFI preamble  
+  ├─ ble  
+  │  │  BLEAoAEst.m        // AoA estimator for LoRa  
+  │  └─ lora_detector_util  // Helper functions of detecting BLE preamble  
+  ├─ lora  
+  │   │  LoRaAoAEst.m       // AoA estimator for LoRa  
+  │   └─ wifi_detector_util // Helper functions of detecting LoRa preamble  
+  ├─ util                   // Helper functions of antenna ID extraction, phase calibation and AoA estimation  
   └─ data
-      │  Data_Info.txt       // Some infomation of raw data.
-      ├─ wifi_data           // Raw data of BLE signal
-      ├─ ble_data            // Raw data of BLE signal
-      └─ lora_data           // Raw data of LoRa signal
+      │  Data_Info.txt       // Some infomation of raw data  
+      ├─ wifi_data           // Raw data of BLE signal  
+      ├─ ble_data            // Raw data of BLE signal  
+      └─ lora_data           // Raw data of LoRa signal  
       
       
 ## Send us Feedback!
 Our work is open source for research purposes, and we want to polish it further!  
-So let us know if you find/fix any bug or know how to speed up or improve any part of TyrLoc.
+So let us know if you find/fix any bug or know how to speed up or improve any part of TyrLoc.  
 
 ## Citation
-  @inproceedings{gu2021tyrloc,
-  author = {Gu, Zhihao and He, Taiwei and Yin, Junwei and Xu, Yuedong and Wu, Jun},
-  title = {TyrLoc: A Low-Cost Multi-Technology MIMO Localization System with a Single RF Chain},
-  year = {2021}
-  }
+  @inproceedings{gu2021tyrloc,  
+  author = {Gu, Zhihao and He, Taiwei and Yin, Junwei and Xu, Yuedong and Wu, Jun},  
+  title = {TyrLoc: A Low-Cost Multi-Technology MIMO Localization System with a Single RF Chain},  
+  year = {2021}  
+  }  
 
