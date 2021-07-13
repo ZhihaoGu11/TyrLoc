@@ -2,7 +2,7 @@
 This re
 
 # Getting Started
-## We design the main function of AoA estimation for each protocol. You can quickly run it by run WIFIAoAEst
+1. We design the main function of AoA estimation for each protocol. You can quickly run it by run WIFIAoAEst
 
 # Project Structure
 
