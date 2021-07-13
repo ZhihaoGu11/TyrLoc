@@ -1,8 +1,8 @@
 # TyrLoc
-TyrLoc is a Low-cost Multi-technology MIMO Localization System with A Single RF Chain.  
-    *Low-cost: cheap SDR and inexpensive antenna array extension*  
-    *Multi-technology: Compatible with various protocols*  
-    *Single RF chain: A novel method to calibrate the phase distortion caused by CFO*  
+**TyrLoc is a Low-cost Multi-technology MIMO Localization System with A Single RF Chain.**  
+> + *Low-cost: cheap SDR and inexpensive antenna array extension*  
+> + *Multi-technology: Compatible with various protocols*  
+> + *Single RF chain: A novel method to calibrate the phase distortion caused by CFO*  
 
 ## Requirements
 **MATLAB R2020a**
