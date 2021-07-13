@@ -1,5 +1,8 @@
-# TyrLoc: A Low-cost Multi-technology MIMO Localization System with A Single RF Chain [*MobiSys 2021*]  
-This re
+# TyrLoc
+TyrLoc is a Low-cost Multi-technology MIMO Localization System with A Single RF Chain.
+    *Low-cost: cheap SDR and inexpensive antenna array extension*  
+    *Multi-technology: Compatible with various protocols*  
+    *Single RF chain: A novel method to calibrate the phase distortion caused by CFO*  
 
 ## Requirements
 **MATLAB R2020a**
@@ -13,23 +16,23 @@ Communications Toolbox Library for the Bluetooth Protocol
 
 ## Getting Started
 1. Click here to download the raw data and put it into the folder.  
-2. We design the main function of AoA estimation for each protocol. You can quickly run it by run WIFIAoA_Main/BLEAoA_Main/LoRaAoA_Main
+2.You can quickly use TyrLoc by run WIFIAoA_Main/BLEAoA_Main/LoRaAoA_Main.  
 
 ## Project Structure
     TyrLoc
-    │  WIFIAoA_Main.m         // Main function of AoA estimation for WIFI  
-    │  BLEAoA_Main.m          // Main function of BLE AoA estimation for BLE  
-    │  LoRaAoA_Main.m         // Main function of LoRa AoA estimation for LoRa  
+    │  WIFIAoA_Main.m          // Main function of AoA estimation for WIFI  
+    │  BLEAoA_Main.m           // Main function of BLE AoA estimation for BLE  
+    │  LoRaAoA_Main.m          // Main function of LoRa AoA estimation for LoRa  
     ├─ wifi  
     │  │  WIFIAoAEst.m         // AoA estimator for BLE  
-    │  └─ ble_detecor_util    // Helper function of detecting WIFI preamble  
+    │  └─ ble_detecor_util     // Helper function of detecting WIFI preamble  
     ├─ ble  
-    │  │  BLEAoAEst.m        // AoA estimator for LoRa  
-    │  └─ lora_detector_util  // Helper functions of detecting BLE preamble  
+    │  │  BLEAoAEst.m          // AoA estimator for LoRa  
+    │  └─ lora_detector_util   // Helper functions of detecting BLE preamble  
     ├─ lora  
-    │   │  LoRaAoAEst.m       // AoA estimator for LoRa  
-    │   └─ wifi_detector_util // Helper functions of detecting LoRa preamble  
-    ├─ util                   // Helper functions of antenna ID extraction, phase calibation and AoA estimation  
+    │   │  LoRaAoAEst.m        // AoA estimator for LoRa  
+    │   └─ wifi_detector_util  // Helper functions of detecting LoRa preamble  
+    ├─ util                    // Helper functions of antenna ID extraction, phase calibation and AoA estimation  
     └─ data
         │  Data_Info.txt       // Some infomation of raw data  
         ├─ wifi_data           // Raw data of BLE signal  
