@@ -8,10 +8,11 @@
 ## Requirements
 **MATLAB R2020a**
 
-**Add-Ons:**  
+**Add-Ons of MATLAB:**  
 Signal Processing Toolbox  
 Communications Toolbox Support Package for Analog Devices ADALM-Pluto Radio  
 Communications Toolbox Library for the Bluetooth Protocol  
+WLAN Toolbox  
 
 **Adding the whole Floder into the path**
 
