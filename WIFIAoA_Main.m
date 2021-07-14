@@ -17,7 +17,7 @@ cfgHT.PSDULength = 64;            % PSDU length in bytes
 cfgHT.MCS = 1;                    % Modulation and Coding Scheme
 cfgHT.ChannelCoding = 'BCC';      % BCC channel coding
 WifiPara.cfgHT = cfgHT;
-load('wifi/wifi_detector_util/txLLTF.mat');
+load('wifi_helper/txLLTF.mat');
 WifiPara.txLLTF = txLLTF;
 
 %Cnt    1    2     3     4     5     6     7    8      9
