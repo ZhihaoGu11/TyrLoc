@@ -1,4 +1,4 @@
-This floder contains the raw data of AoA estimation. Download link: https://drive.google.com/file/d/18O3tWi514rc9_3PZm7FrWP3dXrpt11Kr/view?usp=sharing
+This floder contains the raw data of AoA estimation.
 
 The transmitter is placed 4m away from the receiver in line-of-sight. The ground-truth AoAs of test points range from −80° to 80°.
 
