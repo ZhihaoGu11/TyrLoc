@@ -1,0 +1,13 @@
+This floder contains the raw data of AoA estimation. Download link: https://drive.google.com/file/d/18O3tWi514rc9_3PZm7FrWP3dXrpt11Kr/view?usp=sharing
+
+The transmitter is placed 4m away from the receiver in line-of-sight. The ground-truth AoAs of test points range from −80° to 80°.
+
+Please use 7-Zip to uncompress the file. The unpacked files require about 34.2G storage space.
+
+SHA256 of "data.7z":
+50C0E8B8214604DD43E02C9DE035AF4303CD78FEE469DBF655C56EFB66826733
+
+----------------------------------------------------------
+If you have any questions, please contact me.
+
+Email: zhgu19@fudan.edu.cn
