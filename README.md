@@ -27,7 +27,7 @@ Communications Toolbox Library for the Bluetooth Protocol
     │  LoRaAoA_Main.m          // Main function of LoRa AoA estimation for LoRa  
     ├─ wifi  
     │  │  WIFIAoAEst.m         // AoA estimator for BLE  
-    │  └─ ble_detecor_util     // Helper function of detecting WIFI preamble  
+    │  └─ ble_detecor_util     // Helper functions of detecting WIFI preamble  
     ├─ ble  
     │  │  BLEAoAEst.m          // AoA estimator for LoRa  
     │  └─ lora_detector_util   // Helper functions of detecting BLE preamble  
