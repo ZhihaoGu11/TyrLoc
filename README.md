@@ -8,7 +8,7 @@
 ## Requirements
 **MATLAB R2020a**
 
-**Add-Ons of MATLAB:**  
+**Add-Ons in MATLAB:**  
 Signal Processing Toolbox  
 WLAN Toolbox  
 Communications Toolbox Library for the Bluetooth Protocol  
