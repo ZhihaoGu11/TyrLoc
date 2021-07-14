@@ -20,30 +20,27 @@ Communications Toolbox Support Package for Analog Devices ADALM-Pluto Radio
 
 
 ## Getting Started  
-1. Click here to download the raw data and put it into the folder.  
+1. Click here to download the raw data and put it into the data folder.  
 
 2. You can quickly use TyrLoc by run WIFIAoA_Main/BLEAoA_Main/LoRaAoA_Main.  
 
 ## Project Structure
     TyrLoc
-    │  WIFIAoA_Main.m          // Main function of AoA estimation for WIFI  
-    │  BLEAoA_Main.m           // Main function of BLE AoA estimation for BLE  
-    │  LoRaAoA_Main.m          // Main function of LoRa AoA estimation for LoRa  
-    ├─ wifi  
-    │  │  WIFIAoAEst.m         // AoA estimator for BLE  
-    │  └─ ble_detecor_util     // Helper functions of detecting WIFI preamble  
-    ├─ ble  
-    │  │  BLEAoAEst.m          // AoA estimator for LoRa  
-    │  └─ lora_detector_util   // Helper functions of detecting BLE preamble  
-    ├─ lora  
-    │   │  LoRaAoAEst.m        // AoA estimator for LoRa  
-    │   └─ wifi_detector_util  // Helper functions of detecting LoRa preamble  
-    ├─ util                    // Helper functions of antenna ID extraction, phase calibation and AoA estimation  
-    └─ data
-        │  Data_Info.txt       // Some infomation of raw data  
-        ├─ wifi_data           // Raw data of BLE signal  
-        ├─ ble_data            // Raw data of BLE signal  
-        └─ lora_data           // Raw data of LoRa signal  
+    │  WIFIAoA_Main.m         // Main function of AoA estimation for WIFI  
+    │  BLEAoA_Main.m          // Main function of BLE AoA estimation for BLE  
+    │  LoRaAoA_Main.m         // Main function of LoRa AoA estimation for LoRa  
+    │  
+    ├─ wifi_helper            // Helper functions of detecting WIFI preamble  
+    ├─ ble_helper             // Helper functions of detecting BLE preamble  
+    ├─ lora_helper            // Helper functions of detecting LoRa preamble  
+    │  
+    ├─ util                   // Helper functions of antenna ID extraction, phase calibation and AoA estimation  
+    │  
+    └─ data  
+        │  Data_Info.txt      // Some infomation of raw data  
+        ├─ wifi_data          // Raw data of BLE signal  
+        ├─ ble_data           // Raw data of BLE signal  
+        └─ lora_data          // Raw data of LoRa signal  
       
 
 ## Send us Feedback!
