@@ -43,7 +43,7 @@ Communications Toolbox Support Package for Analog Devices ADALM-Pluto Radio
         └─ lora_data          // Raw data of LoRa signal  
       
 
-## Send us Feedback!
+## Send us Feedback
 Our work is open source for research purposes, and we want to polish it further!  
 So let us know if you find/fix any bug or know how to speed up or improve any part of TyrLoc.  
 
