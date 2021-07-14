@@ -16,7 +16,7 @@ Communications Toolbox Library for the Bluetooth Protocol
 **Adding the whole Floder into the path**
 
 
-## Getting Started
+## Getting Started  
 1. Click here to download the raw data and put it into the folder.  
 
 2. You can quickly use TyrLoc by run WIFIAoA_Main/BLEAoA_Main/LoRaAoA_Main.  
@@ -49,7 +49,7 @@ So let us know if you find/fix any bug or know how to speed up or improve any pa
 
 
 ## Citation
-If TyrLoc hepls your research, please cite the paper in your publications. 
+If TyrLoc hepls your research, please cite the paper in your publications.  
     @inproceedings{gu2021tyrloc,  
     author = {Gu, Zhihao and He, Taiwei and Yin, Junwei and Xu, Yuedong and Wu, Jun},  
     title = {TyrLoc: A Low-Cost Multi-Technology MIMO Localization System with a Single RF Chain},  
