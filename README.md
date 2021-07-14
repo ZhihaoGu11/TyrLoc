@@ -18,7 +18,8 @@ Communications Toolbox Library for the Bluetooth Protocol
 
 ## Getting Started
 1. Click here to download the raw data and put it into the folder.  
-2.You can quickly use TyrLoc by run WIFIAoA_Main/BLEAoA_Main/LoRaAoA_Main.  
+
+2. You can quickly use TyrLoc by run WIFIAoA_Main/BLEAoA_Main/LoRaAoA_Main.  
 
 ## Project Structure
     TyrLoc
@@ -42,13 +43,13 @@ Communications Toolbox Library for the Bluetooth Protocol
         └─ lora_data           // Raw data of LoRa signal  
       
 
-
 ## Send us Feedback!
 Our work is open source for research purposes, and we want to polish it further!  
 So let us know if you find/fix any bug or know how to speed up or improve any part of TyrLoc.  
 
 
 ## Citation
+If TyrLoc hepls your research, please cite the paper in your publications. 
     @inproceedings{gu2021tyrloc,  
     author = {Gu, Zhihao and He, Taiwei and Yin, Junwei and Xu, Yuedong and Wu, Jun},  
     title = {TyrLoc: A Low-Cost Multi-Technology MIMO Localization System with a Single RF Chain},  
