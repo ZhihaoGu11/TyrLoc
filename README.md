@@ -51,9 +51,10 @@ So let us know if you find/fix any bug or know how to speed up or improve any pa
 ## Citation
 If TyrLoc hepls your research, please cite the paper in your publications.  
 
-    @inproceedings{gu2021tyrloc,  
-    author = {Gu, Zhihao and He, Taiwei and Yin, Junwei and Xu, Yuedong and Wu, Jun},  
-    title = {TyrLoc: A Low-Cost Multi-Technology MIMO Localization System with a Single RF Chain},  
-    year = {2021}  
-    }  
+    @inproceedings{gu2021tyrloc,
+      title={TyrLoc: a low-cost multi-technology MIMO localization system with a single RF chain},
+      author={Gu, Zhihao and He, Taiwei and Yin, Junwei and Xu, Yuedong and Wu, Jun},
+      booktitle={Proceedings of the 19th Annual International Conference on Mobile Systems, Applications, and Services},
+      year={2021}
+    }
 
