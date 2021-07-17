@@ -38,7 +38,7 @@ Communications Toolbox Support Package for Analog Devices ADALM-Pluto Radio
     │  
     └─ data  
         │  Data_Info.txt      // Some infomation of raw data  
-        ├─ wifi_data          // Raw data of BLE signal  
+        ├─ wifi_data          // Raw data of WIFI signal  
         ├─ ble_data           // Raw data of BLE signal  
         └─ lora_data          // Raw data of LoRa signal  
       
