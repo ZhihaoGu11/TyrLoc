@@ -14,7 +14,7 @@ function pkt = LoraPreambleDetector(rxWaveform, DetectThreshold, LoraPara)
     upchirpQ = chirp(t, f0, symTime, f1, 'linear', 0);
     upChirp = transpose(complex(upchirpI, upchirpQ));
 
-    %spectrogram(downChirp,256,192,256,Fs,'yaxis','centered');
+    %spectrogram(rxWaveform,256,192,256,Fs,'yaxis','centered');
     A1 = conj(rxWaveform(1:end-symLen)).*rxWaveform(symLen+1:end);
     P = movsum(A1,symLen);
     %Simliar to Sch-Cox algorithm
