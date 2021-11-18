@@ -1,7 +1,7 @@
 function pkt = LoraPreambleDetector(rxWaveform, DetectThreshold, LoraPara)
 
     pkt = [];
-    PreSymNum = LoraPara.PreSymNum;
+    PreSymNum = LoraPara.PreSymNum - 1;
     BW = LoraPara.BW;
     SF = LoraPara.SF;
     Fs = LoraPara.Fs;
