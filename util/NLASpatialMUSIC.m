@@ -1,7 +1,7 @@
 function [doas, ang_deg, pwr] = NLASpatialMUSIC(signal, nsig, Resolution, ElemSpace, AntID, SubArrayNum)
 % signal: the signal matrix, Size: SnapshotNum*AntennaNum
 % nsig: the predefined number of signal source in MUSIC algorithm
-% Resolution(deg): the resolution of MUSIC algorithm, usually 1deg or
+% Resolution(deg): the resolution of MUSIC algorithm, usually 1 or 0.1
 % ElemSpace: the space between adjacent antennas, using relative space (space/wavelength)
 % AntID: the antenna ID of each column vector of the signal matrix
 % SubArrayNum: The number of subarray in MUSIC with spatial smoothing
