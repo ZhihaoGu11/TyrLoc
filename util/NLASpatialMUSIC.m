@@ -1,4 +1,5 @@
 function [doas, ang_deg, pwr] = NLASpatialMUSIC(signal, nsig, Resolution, ElemSpace, AntID, SubArrayNum)
+% MUSIC with Spatial Smoothing and Interpolated Array Transform
 % signal: the signal matrix, Size: SnapshotNum*AntennaNum
 % nsig: the predefined number of signal source in MUSIC algorithm
 % Resolution(deg): the resolution of MUSIC algorithm, usually 1 or 0.1
@@ -128,4 +129,3 @@ else
 end
     
 end
-
