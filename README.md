@@ -22,7 +22,7 @@ Communications Toolbox Support Package for Analog Devices ADALM-Pluto Radio
 ## Getting Started  
 1. Click [here](https://drive.google.com/drive/folders/1uhvyzDL-A9LQRhdQdebNI9TtZqHBKQlo?usp=sharing) to download the raw data and put it into the data folder.  
 
-2. You can quickly use TyrLoc by run WIFIAoA_Main/BLEAoA_Main/LoRaAoA_Main.  
+2. You can quickly use TyrLoc by running WIFIAoA_Main/BLEAoA_Main/LoRaAoA_Main.  
 
 ## Project Structure
     TyrLoc
