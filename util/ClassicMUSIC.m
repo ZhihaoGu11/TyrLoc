@@ -1,4 +1,5 @@
 function [doas, ang_deg, pwr] = ClassicMUSIC(signal, nsig, Resolution, ElemSpace, AntID)
+% Classic MUSIC Algorithm
 % signal: the signal matrix, Size: SnapshotNum*AntennaNum
 % nsig: the predefined number of signal source in MUSIC algorithm
 % Resolution(deg): the resolution of MUSIC algorithm, usually 1 or 0.1
