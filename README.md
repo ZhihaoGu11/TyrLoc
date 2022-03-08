@@ -34,7 +34,7 @@ Communications Toolbox Support Package for Analog Devices ADALM-Pluto Radio
     ├─ ble_helper             // Helper functions of detecting BLE preamble  
     ├─ lora_helper            // Helper functions of detecting LoRa preamble  
     │  
-    ├─ util                   // Helper functions of antenna ID extraction, phase calibation and AoA estimation  
+    ├─ util                   // Helper functions of antenna ID extraction, Phase calibration and AoA estimation  
     │  
     └─ data  
         │  Data_Info.txt      // Some infomation of raw data  
