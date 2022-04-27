@@ -16,7 +16,7 @@ Communications Toolbox Support Package for Analog Devices ADALM-Pluto Radio
 
 
 
-**Adding the whole loder into the path**
+**Adding the whole floder into the path**
 
 
 ## Getting Started  
